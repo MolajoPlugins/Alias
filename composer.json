@@ -1,0 +1,41 @@
+{
+    "name": "molajoplugins/alias",
+    "description": "Alias Plugin for use with the Molajo Plugin Framework",
+    "version": "1.0.0",
+    "type": "molajo-plugin",
+    "keywords": [
+        "plugin",
+        "molajo",
+        "alias"
+    ],
+    "homepage": "http://github.com/MolajoPlugins/Alias",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MolajoPlugins/Alias/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/MolajoPlugins/Alias"
+    },
+    "require": {
+        "molajo/plugins": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molajo\\Plugins\\Alias\\": "/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
